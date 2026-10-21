@@ -1,0 +1,5 @@
+node_modules/
+.expo/
+.netlify/
+web-build/
+dist/
