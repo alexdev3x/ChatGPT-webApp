@@ -14,7 +14,7 @@ git clone https://github.com/ReactMVC/ChatGPT-webApp.git
 2. Navigate into the project directory:
 
 ```bash
-cd ChatGPT-Client
+cd ChatGPT-webApp
 ```
 
 3. Install the dependencies:
@@ -23,10 +23,16 @@ cd ChatGPT-Client
 npm install
 ```
 
-4. Build webApp Client (if error: npx expo export:web)
+4. Start the web app locally:
 
 ```bash
-npm install --global expo-cli && expo build:web
+npm run web
+```
+
+To create a production web export, run:
+
+```bash
+npx expo export --platform web
 ```
 
 ## Developer Contact

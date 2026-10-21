@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, Linking, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import Icon from 'react-native-vector-icons/FontAwesome';
+import { FontAwesome as Icon } from '@expo/vector-icons';
 
 const Home = () => {
     const navigation = useNavigation();
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     },
     subtitle: {
         fontSize: 20,
-        marginTop: '10px',
+        marginTop: 10,
         color: '#666',
     },
     buttonContainer: {

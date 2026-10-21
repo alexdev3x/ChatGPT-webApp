@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, View, TouchableOpacity, ActivityIndicator, Text, Appearance } from 'react-native';
 import { GiftedChat, Bubble, Send, Time, InputToolbar, Composer } from 'react-native-gifted-chat';
-import Icon from 'react-native-vector-icons/Ionicons';
+import { Ionicons as Icon } from '@expo/vector-icons';
 import localForage from 'localforage';
 
 export default function Chat() {
