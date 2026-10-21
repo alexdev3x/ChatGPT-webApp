@@ -8,7 +8,7 @@ To install and run this project, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ReactMVC/ChatGPT-webApp.git
+git clone https://github.com/alexdev3x/ChatGPT-webApp.git
 ```
 
 2. Navigate into the project directory:
@@ -32,7 +32,7 @@ npm run web
 To create a production web export, run:
 
 ```bash
-npx expo export --platform web
+npx expo export:web
 ```
 
 ## Developer Contact
